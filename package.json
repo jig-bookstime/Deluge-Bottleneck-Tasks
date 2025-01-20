@@ -1,0 +1,17 @@
+{
+    "name": "deluge-bottleneck-tasks",
+    "version": "1.0.0",
+    "description": "deluge bottleneck tasks",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"No test specified\" && exit 0"
+    },
+    "author": "Jigyansu Nanda <jigyansu.nanda@bookstime.com>",
+    "license": "UNLICENSED",
+    "dependencies": {
+        "axios": "^1.7.9",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2"
+    }
+}
