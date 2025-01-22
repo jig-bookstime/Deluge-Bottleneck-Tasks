@@ -12,5 +12,9 @@ const {
 
 server.listen(port, () => {
     console.log(`Server is running on PORT:${port}`);
-    createMonthlyReports();
+    setInterval(() => {
+        console.log(
+            "Deluge Bottleneck Tasks running: Monthly Automatic Reports (Not Scheduled), Extra Chargable Clients (Scheduled)"
+        );
+    }, 10 * 60 * 1000);
 });
